@@ -44,8 +44,3 @@ Only **mean** and **standard deviation** measurements are required for this anal
 ## Tidy Data of Mean of **means** and **standard deviations**
 
 A tidy data is created of means of  **means** and **standard deviations** across participants across activities using `group_by` and `summarize` with piping
-
-<<<<<<< HEAD
-=======
-In addition, the activity variable was labeled with activity names, fo clarity.
->>>>>>> b854ffdc6bb23bb4dd452864bff6488618c25786
