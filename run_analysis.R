@@ -52,3 +52,6 @@ tidy_summary <- combo_mean_sd |>
   summarise(across(where(is.numeric), mean), .groups = "drop")
 
 
+# Write output
+
+write.table(tidy_summary, "tidy_summary.txt", row.names = FALSE)
